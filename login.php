@@ -25,8 +25,7 @@
 				height: 3rem;
 				background-color: <?php echo $data[5] ?>;
 				padding: 0.7rem;
-				position: relative;
-				color: white;
+				position: relative; 
 			}
 			
 			.brand { 
@@ -92,11 +91,11 @@
 				 border-radius: 8px; 
 		  }
  
-		  button:hover,
+		  /*button:hover,
 		  button:active {
 			 background-color: #ddd;
 			 border-color: #eee;
-		  }
+		  }*/
 
 		  /*.flat {
 			 background-color: transparent;

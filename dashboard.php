@@ -25,8 +25,7 @@
 				height: 3rem;
 				background-color: <?php echo $data[5] ?>;
 				padding: 0.7rem;
-				position: relative;
-				color: white;
+				position: relative; 
 			}
 			
 			.brand { 
@@ -52,14 +51,14 @@
 				margin-left: 1rem;
 			}
 			
-			li > a {
-				color: white;
+			li > a { 
+				color: <?php echo $data[1] ?>;
 				text-decoration:none;
 			}
 			
-			li > a:hover {
+			/*li > a:hover {
 				color: #eee
-			}
+			}*/
 			
 			.content {
 				height: 100vh;
@@ -82,8 +81,9 @@
 			<div class="brand"><?php echo $data[3] ?></div>
 			<div class="nav-items">
 				<ul>
+					<li><a href="dashboard.php">Dashboard</a></li>
 					<li><a href="settings.php">Settings</a></li>
-					<li><a href="#">Logout</a></li>
+					<li><a href="#">Logout</a></li>					
 				</ul>
 			</div>
 		</div>
